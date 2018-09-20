@@ -1,6 +1,6 @@
 # AJAX
 
-### TIPS: Läs på om AJAX på w3s och använd exemplen
+### TIPS: Läs på om AJAX på [w3s](https://www.w3schools.com/xml/ajax_intro.asp) och använd exemplen
 
 1. Använd AJAX för att hämta en enkel text-fil 
    och visa dess innehåll på sidan.
