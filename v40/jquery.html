@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function (){
+
+	$("div *").click(function (){		
+	
+		$(this).css({backgroundColor:"red",fontSize:"50px"});
+		
+		if($(this).css("marginLeft") == "250px"){
+			$(this).animate({marginLeft:"-=250px"});			
+		}
+		else{
+			$(this).animate({marginLeft:"+=250px"});
+		}		
+	});
+	
+	$(".test").click(function (){	
+		$(this).fadeOut();		
+	});
+	
+	$("#hej1").hide();
+	$("#hej1").click(function (){
+		$("#hej1").toggle();
+		$("#hej2").toggle();
+	});
+	
+	$("#hej2").click(function (){
+		$("#hej2").toggle();
+		$("#hej1").toggle();
+	});
+
+	$("h1").dblclick(function (){
+		
+		alert($(this).html());
+		
+	});
+
+});
+</script>
+<style>
+p{
+	border-radius:100%;
+	background-color:red;
+	width:50px;
+	height:50px;
+}
+
+#hej1{
+	background-color:blue;
+}
+
+.test{
+	background-color:green;
+}
+</style>
+
+</head>
+
+<body>
+<div> 
+	<p> hej </p>
+	<p> hej </p>
+	<p> hej </p>
+	<h1> klick </h1>
+</div>
+
+<div class="test"> div </div>
+<p id="hej1"> hej1 </p>
+<p id="hej2"> hej2 </p>
+<h1> h1 tag </h1>
+
+</body>
+
+</html>
