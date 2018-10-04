@@ -8,3 +8,14 @@
 6. Gör så att alla element med ```class=”dbl_klick”``` får en röd bakgrundsfärg när man dubbelklickar på dem.
 7. Skapa en knapp som visar en drop-down-meny när man klickar på den.
 8. Skapa en "rand" som ligger intill hela vänster kanten och när man hovrar över den med musen så ”slidar” den en in och en fullständig meny kommer fram.
+<hr>
+
+### Ni som är klara: 
+
+* Kolla upp \$.ajax med jQuery
+#### ELLER
+* Fler uppgifter:
+  1. Gör en cirkel som står och studsar på ett ställe.
+  2. Om man klickar på ett element så får den ```class="gone"``` och när man klickar på en ```<button>``` så ska alla med ```class="gone"``` försvinna.
+  3. Gör ett ```<table>``` med massa rader och när man klickar på en rad försvinner den.
+  4. Gör ett ```<table>``` och när man klickar på en ```<button>``` så blir varannan rad blå.
