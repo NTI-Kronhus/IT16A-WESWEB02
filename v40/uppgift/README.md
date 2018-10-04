@@ -12,7 +12,7 @@
 
 ### Ni som är klara: 
 
-* Kolla upp \$.ajax med jQuery
+* Kolla upp \$.ajax() med jQuery
 #### ELLER
 * Fler uppgifter:
   1. Gör en cirkel som står och studsar på ett ställe.
