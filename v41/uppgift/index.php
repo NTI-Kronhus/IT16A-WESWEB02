@@ -7,7 +7,7 @@ $(document).ready(function(){
     $("button").click(function(){
         $.ajax({url: "get.php", success: function(result){
             console.log(JSON.parse(result));
-        }});
+        },data: {name:"Joakim",age:23,length:185}});
     });
 });
 </script>
