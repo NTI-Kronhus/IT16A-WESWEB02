@@ -20,7 +20,7 @@ $(document).ready(function(){
 	
 	$("#delete").click(function(){
        // PROMPT
-	   $.ajax({url: "api.php?id=" + input, success: function(result){
+	   $.ajax({url: "api.php?id=" + /* INPUT /*, success: function(result){
 			},type:"DELETE"});
     });
 });
