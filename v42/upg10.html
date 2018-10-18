@@ -1,0 +1,54 @@
+<html><head><style>
+    
+    
+    div{
+        text-align: center;
+    }
+  
+    #outer{
+        border:2px solid black;
+    }
+    #box{
+        height:200px;
+        width:100%;
+    }
+</style>
+
+<script>
+    
+    function color(färg){
+        var box = document.getElementById("box");
+        box.style.backgroundColor = färg;    
+    }
+    
+    </script>
+</head><body><div id="outer">
+    
+<button onclick="color('magenta')">
+    Magenta
+</button>
+   
+<button onclick="color('yellow')">
+    Yellow
+</button>
+   
+<button onclick="color('cyan')">
+   Cyan
+</button>
+  <button onclick="color('blue')">
+   Blue
+</button>
+   <button onclick="color('green')">
+   Green
+</button>
+   <button onclick="color('red')">
+   Red
+</button>
+   <button onclick="color('pink')">
+    Pink
+</button>
+   <div id="box">
+
+    </div>
+</div>
+</body></html>

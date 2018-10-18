@@ -1,0 +1,46 @@
+<script>
+
+
+var points = 0;
+var correct = true;
+var win = false;
+    
+var questions = ["Vad heter Sveriges huvudstad?", 
+                 "Vad heter Finlands huvudstad?",
+                 "Vad heter Spaniens huvudstad?", 
+                 "Vad heter Tysklands huvudstad?"];
+    
+var answers = ["STOCKHOLM",
+               "HELSINGFORS",
+               "MADRID",
+               "BERLIN"];
+    
+do{
+    
+    var ans = prompt(questions[points]);
+    
+    ans = ans.toUpperCase();
+    
+    if(ans == answers[points]){
+        points++;
+        correct = true;   
+        if(points == answers.length){
+            win = true;
+        }
+  }
+    else{
+        correct = false;
+    }
+    
+    
+}
+while(correct && !win);
+
+    if(win){
+        alert("GRATTIS DU VANN!")
+    }
+    else{
+        alert("Du förlorade. Du fick " + points + " poäng!")
+    }
+
+</script>
