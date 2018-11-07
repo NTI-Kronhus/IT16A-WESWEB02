@@ -1,0 +1,26 @@
+<script src="JSON.js"></script>
+
+<form action="json.php">
+    Name:<input type="text" name="name" id="name"><br>
+    Age:<input type="number" name="age" id="age"><br>
+    Height:<input type="number" name="height" id="height"><br>
+    Address:<input type="text" name="address" id="address"><br>
+    <input type="submit">
+</form>
+
+
+<button onclick="ajax()">AJAX</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+function    ajax(){
+$.ajax({url: "JSON.php", data: {name:document.getElementById("name").value,age:document.getElementById("age").value,height:document.getElementById("height").value,address:document.getElementById("address").value}
+,method:"GET"
+,success: function(result){
+var obj = JSON.parse(result);
+console.log(obj);
+}});
+    
+}
+</script>
