@@ -1,21 +1,9 @@
-## Lektionsuppgifter sökning
+## Uppgift JSON
 
-```java
-// 100 tal i intervallet [0-9]
-int[] numbers = {1,1,1,2,6,7,8,4,3,7,8,9,3,1,3,7,8,5,3,4,8,9,6,4,2,4,7,9,7,4,3,2,3,6,7,8,7,7,5,7,9,6,1,4,0,8,6,5,6,8,9,0,7,5,4,3,2,4,5,9,8,5,9,8,8,4,5,6,7,8,9,0,9,0,9,7,5,2,1,2,3,4,5,4,4,5,3,4,5,0,8,7,0,7,9,7,0,6,5,4};
-
-// 100 namn
-String[] names = {"Crystal","Tam","Ed","Beulah","Daina","Benjamin","Kia","Clelia","Cassy","Gita","Celsa","Karoline","Talitha","Lewis","Betsy","Colin","Glendora","Carola","Rosalba","Jeanie","Yevette","Armand","Neal","Lilla","Dorethea","Delta","Maye","Nikita","Shoshana","Carola","Margie","Haywood","Venessa","Natacha","Gilbert","Kandi","Tyisha","Tammie","Blossom","Penney","Diana","Audrey","Willard","Zoraida","Drusilla","Jacquline","Cyndy","Janiece","Tressie","Kami","Lashanda","Leann","Tom","Santana","Junita","Gisela","Tom","Marquerite","Bryant","Lauralee","Yael","Kelle","Samantha","Tom","Meta","Lanette","Wanetta","Carola","Jana","Neal","Brady","Rigoberto","Felicia","Hellen","Georgeann","Carola","Isaias","Ellis","Roseanne","Lenard","Ela","Ophelia","Alesha","Mafalda","Flor","Kelsi","Autumn","Sondra","Pasty","Jacquelyne","Benjamin","Emmie","Mickie","Lang","Jamee","Felice","Daniella","Carola","Nathalie","Genevive"};
-```
-
-Utgå från arrayerna ovan och skriv 10 metoder i samma klass för att svara på följande frågor:
-1. Hur många 7:or finns det i ```numbers```? 
-2. Hur många Tom finns det i ```names```?
-3. Hur många finns det av varje tal i ```numbers```?
-4. Vad är summan av alla jämna tal i ```numbers```?
-5. På vilket **index** finns namnet Drusilla i ```names```?
-6. Vilket nummer finns det flest utav i ```numbers```?
-7. Hur många namn börjar på bokstaven L i ```names```?
-8. Hur många namn är fem bokstäver långa i ```names```?<br><br>
-9. Hur många unika namn finns det i ```names```?
-10. Vilket är det namn som förekommer flest gånger i ```names```?
+1. Skapa tre .txt dokument som innehåller textrepresentationen av ett varsitt valfritt objekt i JSON-format.
+2. Skapa en .html-fil som med hjälp av AJAX läser in de tre olika filerna och skapar tre olika JavaScript-objekt av dem. Skriv ut objekten i konsolen för att kontrollera så det funkar.
+3. Skapa en .php-fil och skapa tre variabler som innehåller ett namn, en ålder och en adress. Skriv ut de tre variablerna så de blir i ett objekt med JSON-format.
+4. Läs in .php-filen med AJAX och skriv ut resultatet som ett JavaScript-objektet i konsolen.
+5. Skapa en databas och tabell med information om personer (id,namn,ålder,adress).
+6. Skapa en ny .php-fil som skriver ut alla personer i databasen på JSON-format. 
+7. Läs in filen med AJAX och skriv ut varje person som ett JavaScript-objekt i konsolen.
